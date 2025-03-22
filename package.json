@@ -1,6 +1,6 @@
 {
   "name": "think-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimal MCP Server based on the Anthropic's \"think\" tool research",
   "keywords": [
     "think",

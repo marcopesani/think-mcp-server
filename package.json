@@ -1,15 +1,36 @@
 {
   "name": "think-mcp-server",
-  "version": "1.0.0",
-  "description": "Think tool based on Anthropic's research",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "description": "A minimal MCP Server based on the Anthropic's \"think\" tool research",
+  "keywords": [
+    "think",
+    "anthropic",
+    "ai",
+    "agent",
+    "mcp",
+    "model context protocol"
+  ],
+  "author": "Marco Pesani <marco@bitrefill.com>",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "think-mcp-server": "./build/index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",
     "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
   }
 }

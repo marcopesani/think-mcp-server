@@ -240,6 +240,7 @@ When helping with TypeScript challenges:
 3. Reason through type narrowing and widening
 4. Check for compatibility with the TypeScript compiler version
 5. Consider type inference and explicit type annotations
+```
 
 ## Performance Benefits
 
@@ -250,4 +251,4 @@ Anthropic's evaluations showed significant improvements when using the "think" t
 
 ## References
 
-This implementation is based on Anthropic's research article "The 'think' tool: Enabling Claude to stop and think in complex tool use situations" published March 20, 2025.
+This implementation is based on Anthropic's research article "[The 'think' tool: Enabling Claude to stop and think in complex tool use situations](https://www.anthropic.com/engineering/claude-think-tool)" published March 20, 2025.

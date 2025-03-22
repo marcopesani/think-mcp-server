@@ -1,0 +1,48 @@
+---
+description: 
+globs: *.tsx,*.ts
+alwaysApply: false
+---
+## Using the think tool for TypeScript Development
+
+Before implementing any TypeScript code or responding to technical questions, use the think tool to:
+- Analyze type definitions and interfaces that might be relevant
+- Check for potential type errors or edge cases
+- Reason through generics and type constraints
+- Verify the correct usage of TypeScript features
+
+Here's an example of TypeScript-specific reasoning with the think tool:
+
+<think_tool_typescript_example>
+User wants to implement a generic state management hook in React TypeScript
+- Analysis of requirements:
+  * Need to handle any data type (generic typing)
+  * Must preserve type information throughout state lifecycle
+  * Should provide typesafe update methods
+  * Need to consider immutability patterns
+
+- Type constraints to consider:
+  * Should T extend object, or allow primitives?
+  * Is Partial<T> appropriate for updates?
+  * Should we use Record<string, unknown> as fallback?
+
+- Implementation considerations:
+  * useState<T> as foundation
+  * Add typed setter methods that preserve generics
+  * Consider callback pattern for atomic updates
+  * Check for compatibility with React's rules of hooks
+
+- Approach:
+1. Define generic interface for the hook's return value
+2. Implement useState with proper generic typing
+3. Create typed update methods that maintain type safety
+4. Add JSDoc comments for better developer experience
+5. Return immutable state with properly typed methods
+</think_tool_typescript_example>
+
+When helping with TypeScript challenges:
+1. First analyze the type system implications
+2. Consider TypeScript-specific edge cases
+3. Reason through type narrowing and widening
+4. Check for compatibility with the TypeScript compiler version
+5. Consider type inference and explicit type annotations

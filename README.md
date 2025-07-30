@@ -3,9 +3,13 @@
 
 A minimal MCP Server based on the Anthropic's "think" tool research
 
+<a href="https://glama.ai/mcp/servers/@marcopesani/think-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@marcopesani/think-mcp-server/badge" alt="think-mcp-server MCP server" />
+</a>
+
 ## Overview
 
-This project implements a minimal Message Control Protocol (MCP) server that provides Claude AI models with the "think" tool capability. Based on Anthropic's research published on March 20, 2025, this implementation enables Claude to perform better on complex reasoning tasks involving multi-step tool usage.
+This project implements a minimal Message Control Protocol (MCP) server that provides Claude AI models with the "think" tool capability. Based on Anthropic's research published on March 20, 2025, this implementation enables Claude to perform better on complex reasoning tasks involving multi-step tool usage. 
 
 ## What is the "think" tool?
 

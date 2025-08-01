@@ -108,6 +108,14 @@ The Inspector will provide a URL to access debugging tools in your browser.
 
 ## Installation
 
+### Installing via Smithery
+
+To install think-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@marcopesani/think-mcp-server):
+
+```bash
+npx -y @smithery/cli install @marcopesani/think-mcp-server --client claude
+```
+
 ### Installing via npm
 
 ```bash

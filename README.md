@@ -1,5 +1,5 @@
 # think-mcp-server
-[![smithery badge](https://smithery.ai/badge/@marcopesani/think-mcp-server)](https://smithery.ai/server/@marcopesani/think-mcp-server)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.marcopesani/think-mcp-server)](https://lightnow.ai/servers/io.github.marcopesani/think-mcp-server)
 
 A minimal MCP Server based on the Anthropic's "think" tool research
 
